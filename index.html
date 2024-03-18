@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="./icon.svg">
+    <style>
+
+    </style>
+</head>
+<body>
+     <nav id="home" class="flex justify-between max-w-7xl items-center relative p-3 container mx-auto px-3">
+       <div class="absolute  hidden md:block md:w-4/6 md:right-14  object-rect">
+        <img src="imgs/object-rect2.svg" alt="">
+       </div>
+      <!-- logo -->
+      <div class="logo relative z-10">
+        <a href=""><img src="assets/imgs/logo.svg" alt="simpocodeslogo"></a>
+      </div>
+      
+      <!-- nav links -->
+        <ul class="hidden md:flex justify-between space-x-6 relative z-10">
+          <li><a href="#" class="hover:text-callToAction">home</a></li>
+          <li><a href="#about" class="hover:text-callToAction">about</a></li>
+          <li><a href="#features" class="hover:text-callToAction">features</a></li>
+          <li><a href="#pricing" class="hover:text-callToAction">pricing</a></li>
+          <li><a href="#testimonies" class="hover:text-callToAction">testimonies</a></li>
+          <li><a href="#contact" class="hover:text-callToAction">contact</a></li>
+        </ul>
+
+        <!-- button -->
+        <a class="hidden md:block bg-callToAction py-2 px-6 rounded-full hover:outline-2 hover:outline-double hover:outline-callToAction text-white cursor-pointer relative z-10">get started</a>
+
+        <div class=" flex flex-col gap-y-1 md:hidden menu cursor-pointer hover:bg-secondary hover:text-callToAction p-3">
+          <span class="hover:text-callToAction"></span>
+          <span class="hover:text-callToAction"></span>
+          <span class="hover:text-callToAction"></span>
+        </div>
+    </nav>
+
+    <header  class="container mt-20 px-3 md:px-10 lg:px-20  flex mx-auto max-w-7xl flex-wrap justify-between flex-col-reverse md:flex-row pt-10 relative z-10 h-auto sm:gap-3 md:gap-0 bg-transparent">
+      <div class=" sm:w-full md:w-1/2 items-center  flex flex-col gap-8  py-5  h-auto md:items-start">
+        <h1 class="text-3xl sm:text-5xl  font-bold sm:text-center md:text-start w-full ">Bring everyone together to build better products</h1>
+
+        <p class="w-full sm:w-3/5 md:w-auto md:text-start">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view</p>
+
+        <a class="  bg-callToAction py-2 px-6 rounded-full hover:outline-2 hover:outline-double hover:outline-callToAction text-white cursor-pointer relative  sm:max-w-xs md:w-40  sm:self-center sm:w-1/2 md:self-start   text-center capitalize">get started</a>
+      </div>
+      <div class="illustration md:w-1/2 lg:w-5/12 lg:pr-20">
+        <img src="assets/imgs/bg-images2.svg" alt="">
+      </div>
+    </header>
+
+    <!-- about -->
+
+    <section id="about" class="container pt-32 px-3 md:px-10 lg:px-20 flex mx-auto max-w-7xl  flex-col-reverse gap-12 lg:gap-0 items-center lg:justify-between lg:flex-row  lg:items-start ">
+
+      <!-- left -->
+        <div class=" flex flex-col gap-8 items-center justify-start py-3    md:justify-center md:w-full lg:w-1/2 ">
+          <h2 class="font-bold text-2xl  sm:text-3xl text-center lg:text-start w-full">
+            Knowing who we are is your command.
+          </h2>
+          <p class="w-full md:w-4/5 lg:w-auto md:text-start"><em>
+            Manage is the worldest popular tech company that helps different companies around the world to easily control their bussinesses with one onclick  
+          </em></p>
+
+          <ul class="mm pl-3 sm:pl-8  flex flex-col gap-8 justify-start items-start lg:p-3 rounded-md w-full md:w-3/4 lg:w-full">
+            <li class="flex justify-center items-center gap-3 "><span class="checked basis-1/12 max-w-5 min-w-5"><img src="assets/icons/shield-check.png" alt="shield-check" class=""></span>We provides well graphed charts showing your companies growth.</li>
+            <li class="flex justify-center items-center gap-3 "><span class="checked  basis-1/12 max-w-5 min-w-5"><img src="assets/icons/shield-check.png" alt="shield-check" class=""></span>We provide security to your online activities.</li>
+            <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5"><img src="assets/icons/shield-check.png" alt="shield-check" class=""></span>we make easier for you to get the most latest updates for your company software that align with the ASCC standards.</li>
+          </ul>
+
+          <p class="w-full md:w-4/5 lg:w-auto md:text-start">With this rapid developemnt of technologies around the world, You nedd to look no further but stay and get connected with us.As we work an provide client support <b class="text-callToAction">24/7</b></p>
+      </div>
+
+      <!-- right -->
+      <div class="flex justify-center items-center  illustration md:w-3/4 lg:w-5/12 lg:pr-20">
+        <img src="assets/illustrations/about.jpg"  class="w-full" alt="">
+      </div>
+
+    </section>
+
+    <!-- features section -->
+    <section id="features" class="bcontainer pt-32 px-3 md:px-10 lg:px-20 flex mx-auto max-w-7xl  flex-col gap-12 lg:gap-0 justify-between lg:flex-row  items-start">
+      <!-- what's different -->
+      <div class="flex flex-col gap-8 items-center justify-start    md:justify-center md:w-full lg:w-1/2 ">
+        <h2 class="font-bold text-2xl  sm:text-3xl text-center lg:text-start w-full">
+          What's different about Manage?
+        </h2>
+        <p class="w-full sm:w-3/4 lg:w-auto md:text-start">Manage provides all the functionality your team need, without the community.Our softwrae is tailor-made for modern digital product teams</p>
+      </div>
+
+      <!--number lists -->
+      <div class="flex  flex-col gap-8 justify-start md:justify-center   md:flex-row lg:flex-col md:w-full lg:w-2/5 ">
+        <!-- 01 -->
+        <div class="flex flex-col gap-4 justify-start md:justify-center items-start lg:flex-row ">
+          <!-- number -->
+          <div class="flex justify-center items-center px-5 h-8  bg-callToAction text-white rounded-2xl self-center w-20 md:self-start  lg:w-auto">
+            <p>01</p>
+          </div>
+          <!-- right text content -->
+          <div class="flex flex-col gap-4 items-center md:items-start">
+            <h3 class="font-bold text-lg text-center md:text-start">Track company-wide progress</h3>
+            <p class="w-full sm:w-3/5 md:w-auto md:text-start">See how your to-day tasks fit into the wider vision.Go from tracking progress at the milestone level all the way done to the smallest of details.Never lose sight of the bigger picture again</p>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="flex flex-col gap-4 justify-start md:justify-center items-start lg:flex-row">
+          <!-- number -->
+          <div class="flex justify-center items-center px-5 h-8  bg-callToAction text-white rounded-2xl self-center w-20 md:self-start  lg:w-auto">
+            <p>02</p>
+          </div>
+          <!-- right text content -->
+          <div class="flex flex-col gap-4 items-center md:items-start">
+            <h3 class="font-bold text-lg text-center md:text-start">Advanced built-in reports</h3>
+            <p class="w-full sm:w-3/5 md:w-auto md:text-start">See internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed</p>
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="flex flex-col gap-4 justify-start md:justify-center items-start lg:flex-row">
+          <!-- number -->
+          <div class="flex justify-center items-center px-5 h-8  bg-callToAction text-white rounded-2xl self-center w-20 md:self-start  lg:w-auto">
+            <p>03</p>
+          </div>
+          <!-- right text content -->
+          <div class="flex flex-col gap-4 items-center md:items-start">
+            <h3 class="font-bold text-lg text-center md:text-start">Everything you need in one place</h3>
+            <p class="w-full sm:w-3/5 md:w-auto md:text-start">Stop jumping from one service to another to communicate, store files, track tasks and share documents, Manage offers an all-in-one team product solution</p>
+          </div>
+        </div>
+        
+      </div>
+
+
+    </section>
+
+    <!-- pricing -->
+  <section id="pricing" class="container mx-auto  max-w-7xl testimonies pt-32 flex flex-col gap-8 px-3 md:px-10 lg:px-20 flex-wrap">
+    <div class="flex flex-col justify-center items-center md:justify-between  md:flex-row py-3 gap-16 md:gap-2 flex-wrap ">
+
+     <!-- free plan -->
+     <div class="relative overflow-hidden  flex flex-col w-full sm:w-3/4 pt-3 pb-28 sm:pb-10 md:py-3   md:w-5/12 lg:w-1/4   flex-grow rounded-lg h-auto min-h-10 shadow-sm shadow-callToAction outline-1 outline-double outline-secondary md:min-w-1/2">
+      <h3 class="font-bold text-xl  md:text-start pl-6 py-6">Free Plan</h3>
+      <div class="pb-6 pl-6"><span class="text-callToAction font-bold text-5xl">$0</span><span class="opacity-50 font-bold text-2xl">/month</span></div>
+      <ul class=" mm pl-8 sm:pl-8  flex flex-col gap-6 justify-start items-start lg:px-6  rounded-md w-full md:w-3/4 lg:w-full">
+        <li class="flex justify-center items-center gap-3 "><span class="checked basis-1/12 max-w-5 min-w-5"><img src="assets/icons/check.png" alt="shield-check" class=""></span>Companies daily traffic.</li>
+        <li class="flex justify-center items-center gap-3 "><span class="checked  basis-1/12 max-w-5 min-w-5"><img src="assets/icons/check.png" alt="shield-check" class=""></span>Daily email for your company's progress</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5"><img src="assets/icons/check.png" alt="shield-check" class=""></span>Browser monitoring for only security .</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5"><img src="assets/icons/check.png" alt="shield-check" class=""></span>10GB cloud storage</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5"><img src="assets/icons/check.png" alt="shield-check" class=""></span>1 website hosting</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5">
+          <!-- <img src="assets/icons/shield-check.png" alt="shield-check" class=""> -->
+        </span><del class="opacity-70"> Manage vpn </del></li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5">
+          <!-- <img src="assets/icons/shield-check.png" alt="shield-check" class=""> -->
+        </span><del class="opacity-70">24 hour online Client support</del></li>
+
+      </ul>
+      <div class="free-plan-btn absolute w-4/5 bottom-6 md:relative mx-6  mt-14 h-12  md:h-10 flex items-center">
+        <a class="overflow-hidden  rounded-full outline-2 outline-double outline-callToAction  cursor-pointer relative   md:w-40  sm:self-center w-full md:self-start   text-center capitalize h-full"> <span class="relative z-10 h-full flex justify-center items-center w-full py-2  rounded-full">Buy Now</span> <span class="absolute s  left-0 w-full rounded-full h-full top-full bg-callToAction"></span></a>
+        
+      </div>
+     </div>
+
+     <!-- bussiness plan -->
+     <div class="relative flex flex-col w-full sm:w-3/4 pt-3 pb-28 sm:pb-10 md:py-3  md:w-5/12 flex-grow rounded-lg h-auto min-h-10 shadow-md shadow-callToAction outline-1 outline-double outline-secondary overflow-hidden lg:w-1/4    ">
+      <div class="absolute w-full h-1 bg-callToAction top-0"></div>
+      <h3 class="font-bold text-3xl  md:text-start pl-6 py-6">Bussiness Plan</h3>
+      <div class="pb-6 pl-6"><span class="text-callToAction font-bold text-5xl">$40</span><span class="opacity-50 font-bold text-2xl">/month</span></div>
+      <ul class="mm pl-8 sm:pl-8  flex flex-col gap-6 justify-start items-start lg:px-6  rounded-md w-full md:w-3/4 lg:w-full">
+        <li class="flex justify-center items-center gap-3 "><span class="checked basis-1/12 max-w-5 min-w-5"><img src="assets/icons/check.png" alt="check" class=""></span>Companies daily traffic.</li>
+        <li class="flex justify-center items-center gap-3 "><span class="checked  basis-1/12 max-w-5 min-w-5"><img src="assets/icons/check.png" alt="check" class=""></span>Daily email for your company's progress</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5"><img src="assets/icons/check.png" alt="check" class=""></span>Browser monitoring for only security .</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5"><img src="assets/icons/check.png" alt="check" class=""></span>100GB cloud storage</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5"><img src="assets/icons/check.png" alt="check" class=""></span>10 website hosting</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5">
+          <img src="assets/icons/check.png" alt="check" class="">
+        </span>Manage vpn </li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5">
+          <img src="assets/icons/check.png" alt="check" class="">
+        </span>24 hour online Client support</li>
+
+      </ul>
+      <div class="free-plan-btn absolute w-4/5 bottom-6 md:relative mx-6  mt-14 h-12  md:h-10 flex items-center">
+        <a class="overflow-hidden  rounded-full hover:outline-2 hover:outline-double hover:outline-callToAction bg-callToAction  cursor-pointer relative   md:w-40  sm:self-center w-full md:self-start   text-center capitalize h-full flex justify-center items-center text-white">Buy Now</span></a>
+        
+      </div>
+     </div>
+
+     <!-- developer -->
+     <div class="relative overflow-hidden  flex flex-col w-full sm:w-3/4 pt-3 pb-28 sm:pb-10 md:py-3   md:w-5/12 lg:w-1/4   flex-grow rounded-lg h-auto min-h-10 shadow-sm shadow-callToAction outline-1 outline-double outline-secondary md:min-w-1/2">
+      <h3 class="font-bold text-lg  md:text-start pl-6 py-6">Developer Plan</h3>
+      <div class="pb-6 pl-6"><span class="text-callToAction font-bold text-5xl">$68</span><span class="opacity-50 font-bold text-2xl">/month</span></div>
+      <ul class="mm pl-8 sm:pl-8  flex flex-col gap-6 justify-start items-start lg:px-6  rounded-md w-full md:w-3/4 lg:w-full">
+        <li class="flex justify-center items-center gap-3 "><span class="checked basis-1/12 max-w-5 min-w-5"><img src="assets/icons/check.png" alt="shield-check" class=""></span>Companies daily traffic.</li>
+        <li class="flex justify-center items-center gap-3 "><span class="checked  basis-1/12 max-w-5 min-w-5"><img src="assets/icons/check.png" alt="shield-check" class=""></span>Daily email for your company's progress</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5"><img src="assets/icons/check.png" alt="shield-check" class=""></span>Browser monitoring for only security .</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5"><img src="assets/icons/check.png" alt="shield-check" class=""></span>500GB cloud storage</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5"><img src="assets/icons/check.png" alt="shield-check" class=""></span>Unlimitted website hosting</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5">
+          <img src="assets/icons/check.png" alt="shield-check" class="">
+        </span>Manage vpn</li>
+        <li class="flex justify-center items-center gap-3"><span class=" checked basis-1/12 max-w-5  min-w-5">
+          <img src="assets/icons/check.png" alt="shield-check" class="">
+        </span>24 hour online Client support</li>
+
+      </ul>
+      <div class="free-plan-btn absolute w-4/5 bottom-6 md:relative mx-6  mt-14 h-12  md:h-10 flex items-center">
+        <a class="overflow-hidden  rounded-full outline-2 outline-double outline-callToAction  cursor-pointer relative   md:w-40  sm:self-center w-full md:self-start   text-center capitalize h-full"> <span class="relative z-10 h-full flex justify-center items-center w-full py-2  rounded-full">Buy Now</span> <span class="absolute s  left-0 w-full rounded-full h-full top-full bg-callToAction"></span></a>
+        
+      </div>
+     </div>
+    </div>
+
+    
+  </section>
+
+    <!-- testimonies -->
+    <section id="testimonies" class="container mx-auto  max-w-7xl testimonies pt-32 flex flex-col gap-8 px-3 md:px-10 lg:px-20 ">
+              <!-- heading -->
+      <div class="flex justify-center w-full items-center py-3 ">
+        <h2 class="font-bold text-2xl  sm:text-3xl text-center  w-full">
+          What's different about Manage?
+        </h2>
+                
+      </div>
+
+      <!-- testimonies container -->
+      <div class="flex flex-col justify-between  md:flex-row py-3 gap-16 md:gap-1 flex-wrap">
+
+        <!-- 1 -->
+        <div class="flex flex-col w-full   gap-6 items-center justify-center  bg-secondary rounded-md p-3 md:w-3/12 flex-grow relative">
+         <div class="-top-10 absolute p-3 w-20 rounded-full outline-4 shadow-sm outline-dotted bg-secondary outline-secondary">
+          <img src="assets/imgs/t-1.png" alt="testimonie 1" class="w-full rounded-full ">
+         </div>
+          <h3 class="font-bold text-lg capitalize mt-12">Christina perry</h3>
+          <p><q>Manage has superchanged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated</q></p>
+
+        </div>
+
+        <!-- 2 -->
+        <div class="flex flex-col   gap-6 items-center justify-center bg-secondary rounded-md p-3 md:w-3/12 flex-grow relative">
+          <div class="-top-10 absolute p-3 w-20 rounded-full outline-4 shadow-sm outline-dotted bg-secondary outline-secondary">
+            <img src="assets/imgs/t-2.png" alt="testimonie 1" class="w-full rounded-full ">
+           </div>
+          <h3 class="font-bold text-lg capitalize mt-12">Shaw</h3>
+          <p><q>We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is so much more focused.</q></p>
+
+        </div>
+
+        <!-- 3 -->
+        <div class="flex flex-col  gap-6 items-center justify-center bg-secondary rounded-md p-3 md:w-3/12 flex-grow relative">
+          <div class="-top-10 absolute p-3 w-20 rounded-full outline-4 shadow-sm outline-dotted bg-secondary outline-secondary">
+            <img src="assets/imgs/t-3.png" alt="testimonie 1" class="w-full rounded-full ">
+           </div>
+          <h3 class="font-bold text-lg capitalize mt-12">Reigner Belly</h3>
+          <p><q>Manage has not only helped me to save my money that I have been spending on different software tools to manage my bussiness,but also saved my time and boosted my companies out annualy</q></p>
+
+        </div>
+
+
+      </div>
+              <!-- button -->
+      <div class="flex justify-center">
+  <a class="  bg-callToAction py-2 px-6 rounded-full hover:outline-2 hover:outline-double hover:outline-callToAction text-white cursor-pointer relative     text-center capitalize">get started</a>
+       </div>
+    </section>
+
+    <!-- contact -->
+
+    <!-- CTA -->
+    <section class="cta h-auto md:h-40 rounded-t-md mx-auto  mt-32 flex flex-col gap-4 md:gap-8 p-3 md:px-10 lg:px-20 md:flex-row justify-start  md:justify-around  items-center bg-callToAction ">
+    <!-- heading -->
+    <div class="flex  items-center py-3 justify-center md:justify-start  w-full  md:w-5/12">
+        <h2 class="font-bold text-2xl text-white sm:text-3xl ">
+          Simplify how your team works today
+        </h2>
+                
+    </div>
+
+    <!-- button -->
+    <div class="flex justify-center">
+      <a class="  bg-white py-2 px-6 rounded-full  hover:outline-double hover:outline-2 hover:outline-secondary  text-black cursor-pointer relative     text-center capitalize">get started</a>
+       </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="  h-auto md:h-40  mx-auto   flex flex-col gap-4  md:px-10 lg:px-20 md:flex-row justify-between    items-center bg-black ">
+
+      <div class="col1 w-full  md:w-auto min-h-40  md:h-full flex flex-col items-center justify-around">
+        <!-- logo -->
+        <div class="basis-2/5 justify-center  md:justify-start w-full relative flex max-h-16 h-auto  ">
+          <a href="" class="flex  justify-center items-center gap-4"><img src="assets/imgs/logo.svg" alt="simpocodeslogo" class="w-12 h-12"><span class="text-white font-bold text-2xl ">Manage</span></a>
+        </div>
+
+        <!-- social links -->
+        <div class="social-links text-white flex gap-2">
+          <a href="" class="bg-secondary text-callToAction w-8 h-8  text-2xl  text-center rounded-full"></a>
+          <a href="" class="bg-secondary flex justify-center items-center  text-callToAction w-8 h-8  text-2xl text-center rounded-full"></a>
+          <a href="" class="bg-secondary text-callToAction w-8 h-8  text-2xl text-center rounded-full"></a>
+          <a href="" class="bg-secondary text-callToAction w-8 h-8 text-2xl text-center rounded-full"></a>
+          <a href="" class="bg-secondary text-callToAction w-8 h-8  text-2xl text-center rounded-full"></a>
+      
+        </div>
+      </div>
+
+
+      <div class="col2   flex w-full justify-between px-10 md:px-0 sm:justify-center md:justify-end gap-1 sm:gap-24 md:w-1/2 min-w-40  max-h-40 md:h-full py-5">
+          
+        <ul class="flex flex-col justify-between h-full">
+          <li><a href="#home" class=" hover:text-callToAction">Home</a></li>
+          <li><a href="#pricing" class=" hover:text-callToAction">Pricing</a></li>
+          <li><a href="#features" class=" hover:text-callToAction">Features</a></li>
+          <li><a href="#about" class=" hover:text-callToAction">About Us</a></li>
+        </ul>
+
+                
+        <ul class="flex flex-col justify-between  h-full">
+          <ul class="flex flex-col justify-start gap-2 h-full">
+            <li><a href="#" class=" hover:text-callToAction">Careers</a></li>
+            <li><a href="#" class=" hover:text-callToAction">Community</a></li>
+            <li><a href="#" class=" hover:text-callToAction">Privacy Policy</a></li>
+          </ul>
+        </ul>
+  
+      </div>
+
+      <!-- <div class="col3 flex  gap-8  min-w-40 justify-end  max-h-40 md:h-full py-5">
+  
+  
+      </div> -->
+
+      <div class="flex  w-full flex-col justify-between md:w-2/5 min-w-56 max-h-40 md:h-full py-5">
+        <div class="flex flex-row w-full h-1/2 gap-2 justify-center items-center">
+          <input type="text" class="rounded-full h-11 w-4/6 focus:outline-double focus:outline-4 focus:outline-callToAction px-3 ">
+          <a class="block  bg-callToAction py-2 px-6 rounded-full hover:outline-2 hover:outline-double hover:outline-callToAction text-white cursor-pointer relative    sm:self-center  text-center capitalize">Go</a>
+
+        </div>
+        <div class="pPolicy flex justify-center items-center p-3">
+          <a href="" class="text-sm hover:text-callToAction">&copyCopyright 2024 All rights Reseverd</a>
+        </div>
+      </div>
+
+  
+
+    </footer>
+
+ 
+
+
+
+
+</body>
+</html>
