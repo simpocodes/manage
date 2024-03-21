@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.checked{
+    display: block;
+     width: 20px;
+    /* height: 20px; */
+    background-image: url("/assets/icons/shield-check.png");
+    color: green;
+    /* background-color: rgba(0, 128, 0, 0.212); */
+    /* padding: .3rem; */
+    /* border-radius: 100%; */
+    /* border: 1px solid #fff; */
+    /* outline: 2px solid #22c55e; */
+}
+
+nav  a{
+    text-transform: capitalize;
+}
+nav .object-rect{
+
+    z-index: 0;
+}
+
+.menu span{
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    /* color: #fff; */
+}
+footer * a{
+    color: #fff;
+    font-size: 15px;
+
+}
+
+a:hover > span{
+  color: #22c55e;
+}
+.cta{
+    margin-top: 32px !important;
+}
+
+.cta,footer{
+    /* max-width:1400px;
+    margin: auto; */
+}
+.free-plan-btn  a:hover >  span{
+    color: #fff;
+  
+    /* animation: h-full .6s both; */
+}
+.free-plan-btn  a:hover >  .s{
+  
+    animation: h-full .6s both;
+}
+@keyframes h-full {
+    to{
+        top:0;
+    }
+}
+/* textarea:focus{
+    outline: 1px solid red;
+} */
