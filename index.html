@@ -14,39 +14,42 @@
 <body class="relative">
   <!-- <div class="empty-me fixed z-30 top-0 left-0 p-10 bg-green-300 w-full ">james</div> -->
   <!-- <div class="absolute w-full h-screen bg-slate-400  z-10"> -->
-    <div class="down-up-btn w-10 h-10 rounded-full   bg-secondary  bottom-10 right-10 hover:w-11 hover:h-11 fixed flex justify-center items-center cursor-pointer shadow-md z-20">
-      <img src="assets/icons/angle-right.png" alt="" class="w-1/2 h-1/2 rotate-90 ">
+    <div class=" down-up-btn bg-secondary h-10 rounded-full bottom-10 right-10  fixed flex justify-center items-center cursor-pointer shadow-md z-20">
+      <!-- <img src="assets/icons/angle-right.png" alt="" class="w-1/2 h-1/2 rotate-90 "> -->
+      <a href="#">
+         <i class="whatsapp-btn fa-3x fa-brands fa-whatsapp-square shadow-md  text-3xl text-callToAction" ></i>
+      </a>
     </div>
   <!-- </div> -->
   
   <nav id="home" class=" z-20 rounded-b-md  bg-white w-full">
         <div class="flex justify-between max-w-7xl items-center relative p-3 container mx-auto px-3">
              <!-- logo -->
-   <div class="logo relative z-10">
-    <a href=""><img src="assets/imgs/logo.svg" alt="simpocodeslogo"></a>
-  </div>
+              <div class="logo relative z-10">
+                <a href=""><img src="assets/imgs/logo.svg" alt="simpocodeslogo"></a>
+              </div>
   
-  <!-- nav links -->
-  <!-- <ul class="hidden md:flex md:justify-between md:space-x-6 relative z-10 "> -->
-    <ul class="hidden md:flex md:flex-row md:justify-between md:space-x-6    pt-14 md:pt-0 pb-6 md:pb-0 px-4 md:px-0 flex-col  gap-4 relative z-10 rounded-b-md ">
-      <li><a href="#" class="hover:text-callToAction">home</a></li>
-      <li><a href="#about" class="hover:text-callToAction">about</a></li>
-      <li><a href="#features" class="hover:text-callToAction">features</a></li>
-      <li><a href="#pricing" class="hover:text-callToAction">pricing</a></li>
-      <li><a href="#testimonies" class="hover:text-callToAction">testimonies</a></li>
-      <li><a href="#contact" class="hover:text-callToAction">contact</a></li>
-    </ul>
+              <!-- nav links -->
+              <!-- <ul class="hidden md:flex md:justify-between md:space-x-6 relative z-10 "> -->
+                <ul class="hidden md:flex md:flex-row md:justify-between md:space-x-6  pt-14 md:pt-0 pb-6 md:pb-0 px-4 md:px-0 flex-col relative  gap-4  z-10 rounded-b-md  ">
+                  <!-- <i class=" hide-menu fa  text-3xl text-callToAction" ></i> -->
+                  <div class="position-menu absolute flex flex-col  gap-y-1  md:hidden  menu cursor-pointer hover:text-callToAction p-3 z-20">
+                    <i class="hide-menu fa  text-3xl text-callToAction" ></i>
+                    </div>
+                  <li><a href="#" class="hover:text-callToAction">home</a></li>
+                  <li><a href="#about" class="hover:text-callToAction py-3">about</a></li>
+                  <li><a href="#features" class="hover:text-callToAction">features</a></li>
+                  <li><a href="#pricing" class="hover:text-callToAction">pricing</a></li>
+                  <li><a href="#testimonies" class="hover:text-callToAction">testimonies</a></li>
+                  <li><a href="#contact" class="hover:text-callToAction">contact</a></li>
+                </ul>
 
-    <!-- button -->
-    <a class="hidden md:block bg-callToAction py-2 px-6 rounded-full hover:outline-2 hover:outline-double hover:outline-callToAction text-white cursor-pointer relative z-10">get started</a>
+              <!-- button -->
+              <a class="hidden md:block bg-callToAction py-2 px-6 rounded-full hover:outline-2 hover:outline-double hover:outline-callToAction text-white cursor-pointer relative z-10">get started</a>
 
-    <div class=" flex flex-col  gap-y-1  md:hidden  menu cursor-pointer hover:text-callToAction p-3 z-20">
-     <i class="show-menu fa fa-navicon text-3xl text-callToAction" ></i>
-     <!-- <i class="hidden hide-menu fa fa-x text-3xl text-callToAction"></i> -->
-      <!-- <span class="hover:text-callToAction"></span>
-      <span class="hover:text-callToAction"></span>
-      <span class="hover:text-callToAction"></span> -->
-    </div>
+              <div class="position-menu absolute flex flex-col  gap-y-1  md:hidden  menu cursor-pointer hover:text-callToAction p-3 z-20">
+              <i class="see_menu fa fa-navicon text-3xl text-callToAction" ></i>
+              </div>
         </div>
  </nav>
 

@@ -1207,6 +1207,9 @@ video {
   outline-color: #dcfce7;
 }
 
+*{
+  /* box-sizing: border-box; */
+}
 html{
   scroll-behavior: smooth;
 }
@@ -1217,10 +1220,22 @@ html{
 }
 
 .hidden{
-  /* display: none !important; */
+  /* display: none; */
 }
 
 #home{
+}
+.whatsapp-btn{
+  animation: whatsapp-btn 1s ease alternate-reverse 8;
+}
+@keyframes whatsapp-btn {
+  from{
+    font-size: .2rem;
+  }
+}
+.position-menu{
+  top: 5%;
+  right: 4%;
 }
 
 .stick-top{
@@ -1246,20 +1261,13 @@ html{
   left: 0;
   background: #fff;
   z-index: 11;
-  /* gap: 11px; */
 }
 
 .checked{
   display: block;
   width: 20px;
-  /* height: 20px; */
   background-image: url("/assets/icons/shield-check.png");
   color: green;
-  /* background-color: rgba(0, 128, 0, 0.212); */
-  /* padding: .3rem; */
-  /* border-radius: 100%; */
-  /* border: 1px solid #fff; */
-  /* outline: 2px solid #22c55e; */
 }
 
 nav  a{

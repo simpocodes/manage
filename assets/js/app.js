@@ -1,27 +1,28 @@
 let nav=document.querySelector('nav');
 let navigation=document.querySelector('nav ul');
-let showMenu=document.querySelector('.show-menu');
-let hideMenu;
+var showMenu=document.querySelector('.see_menu');
+let hideMenu=document.querySelector('.hide-menu');
 
+// if("fa text-3xl text-callToAction fa-navicon show-menu")
+console.log(hideMenu)
 
 showMenu.addEventListener('click',shownav=>{
-    showMenu.classList.add('fa-x','hide-menu')
+    hideMenu.classList.add('fa-x')
     navigation.classList.add('ul-sm','flex')
     navigation.classList.remove('hidden','relative','space-x-6')
-    showMenu.classList.remove('fa-navicon','show-menu')
-    hideMenu=document.querySelector('.hide-menu');
-
-
-   hideMenu.addEventListener('click',hidenav=>{
-        hideMenu.classList.add('fa-navicon','show-menu')
-        hideMenu.classList.remove('fa-x','hide-menu')
-        navigation.classList.add('hidden','relative','space-x-6')
-        navigation.classList.remove('ul-sm','flex')
-
-        
-    })
+    showMenu.classList.remove('fa-navicon','see_menu')
+    // hideMenu=document.querySelector('.hide-menu');
 
 })
+hideMenu.addEventListener('click',hidenav=>{
+    hideMenu.classList.remove('fa-x')
+    navigation.classList.remove('ul-sm','flex')
+    navigation.classList.add('hidden','relative','space-x-6')
+    showMenu.classList.add('fa-navicon','see_menu')
+ 
+})
+
+ 
 
 
 
@@ -36,7 +37,7 @@ window.addEventListener('scroll',al=>{
         nav.classList.remove('relative')
         nav.classList.add('stick-top')
         nav.classList.add('shadow-md')
-
+ 
     }
     else{
         nav.classList.add('relative')
